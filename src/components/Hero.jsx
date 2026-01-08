@@ -21,8 +21,10 @@ function Hero() {
             </h3>
 
             <p className="hero-desc">
-              I'm very passionate about full-stack development and always
-              learning something new.
+              I am a Junior Java Full Stack Developer with hands-on experience
+              in Java, Spring Boot, React, and Cloud technologies. I have
+              completed internships in Web Development and Software & Data
+              Engineering.
             </p>
 
             <div className="mt-4">

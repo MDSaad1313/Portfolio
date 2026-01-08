@@ -54,7 +54,7 @@ function Tools() {
   }, []);
 
   return (
-    <section className="tools-section" ref={sectionRef}>
+    <section className="tools-section" ref={sectionRef} id="tools">
       <h2 className="tools-title">Tech & Tools</h2>
 
       <div className={`tools-grid ${show ? "show" : ""}`}>
@@ -133,9 +133,6 @@ function Tools() {
         </div>
         <div className="tool-item">
           <SiVite color="#646CFF" />
-        </div>
-        <div className="tool-item">
-          <SiVercel color="#ffffff" />
         </div>
       </div>
     </section>

@@ -1,0 +1,29 @@
+/* Increase navbar height */
+.custom-navbar {
+  min-height: 80px;          /* KEY FIX */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Brand (SM.) */
+.nav-brand {
+  font-size: 2.8rem !important;   /* FORCE size */
+  font-weight: 800;
+  letter-spacing: 3px;
+  line-height: 1;                 /* REMOVE compression */
+}
+
+/* Align brand vertically */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+/* Nav links spacing */
+.nav-links {
+  gap: 30px;
+}
+
+.nav-links .nav-link {
+  font-size: 1.2rem;
+}
