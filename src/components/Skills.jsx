@@ -2,7 +2,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 
 function Skills() {
   return (
-    <section id="skills" className="py-5 bg-light">
+    <section id="skills" className="py-5 text-white">
       <Container>
         <h2 className="text-center fw-bold mb-4">Skills</h2>
 

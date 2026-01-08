@@ -1,0 +1,68 @@
+/* ===== Tech & Tools Section ===== */
+.tools-section {
+  min-height: 100vh;
+  padding: 100px 8%;
+  background: linear-gradient(
+    180deg,
+    #0a0f1f,
+    #0d1b2a,
+    #1b263b
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Title */
+.tools-title {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+/* Grid */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 45px;
+  max-width: 900px;
+  width: 100%;
+}
+
+/* Each icon wrapper */
+.tool-item {
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+
+/* Animate each icon */
+.tools-grid.show .tool-item {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Icons */
+.tool-item svg {
+  font-size: 3.2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover */
+.tool-item svg:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 10px rgba(0, 224, 255, 0.6));
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tools-title {
+    font-size: 2rem;
+  }
+
+  .tool-item svg {
+    font-size: 2.7rem;
+  }
+}
