@@ -11,10 +11,22 @@ function Projects() {
       githubLink: "https://github.com/MDSaad1313/todo-app",
     },
     {
-      title: "Student Management System",
-      description: "Java + JDBC + MySQL CRUD application",
-      liveLink: "https://your-project-live-link.com",
-      githubLink: "https://github.com/MDSaad1313/student-management",
+      title: "Bharat Clock",
+      description: "React + Vite + Vercel",
+      liveLink: "https://bharat-clock-lime.vercel.app/",
+      githubLink: "https://github.com/MDSaad1313/bharat-clock",
+    },
+    {
+      title: "Under Process",
+      description: "",
+      liveLink: "",
+      githubLink: "https://github.com/MDSaad1313/",
+    },
+    {
+      title: "Under Process",
+      description: "",
+      liveLink: "",
+      githubLink: "https://github.com/MDSaad1313/",
     },
   ];
 
