@@ -28,11 +28,17 @@ function Hero() {
             </p>
 
             <div className="mt-4">
-              <Button variant="outline-light" className="me-3">
+              <Button
+                variant="outline-light"
+                href="/Saad_Mujawar_Java_Full_Stack_Developer.pdf"
+                className="me-3"
+              >
                 Resume
               </Button>
 
-              <Button variant="outline-light">Projects</Button>
+              <Button variant="outline-light" href="#projects">
+                Projects
+              </Button>
             </div>
 
             {/* SOCIAL ICONS */}
