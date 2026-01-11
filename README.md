@@ -1,16 +1,69 @@
-# React + Vite
+# 🌐 Saad Mujawar – Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal **portfolio website** built using **React + Vite + Bootstrap**.  
+It showcases my skills, tools, projects, and provides an easy way to contact me.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://my-portfolio-dun-one-48.vercel.app/
+📂 **GitHub:** https://github.com/MDSaad1313
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Modern responsive UI
+- Smooth navigation with Bootstrap Navbar
+- Sections: Home, About, Tools, Projects, Contact
+- Tech & Tools section with animated icons
+- Projects with **Live Demo** and **GitHub Code** buttons
+- Contact form with social links
+- Mobile-friendly design
+- Deployed on **Vercel**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Bootstrap
+
+### Tools & Technologies
+
+- Java
+- C, C++
+- Spring Boot, Hibernate
+- MySQL, JDBC
+- React, Angular
+- Node.js
+- Git & GitHub
+- Google Cloud Platform (GCP)
+- Vite, Vercel
+- Eclipse, Android Studio
+- Maven, Postman
+
+---
+
+## 📁 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Tools.jsx
+│   ├── Projects.jsx
+│   ├── Contact.jsx
+│   ├── Navbar.css
+│   ├── Tools.css
+│   ├── Projects.css
+│   └── Contact.css
+├── App.jsx
+├── main.jsx
+└── index.css
+```
