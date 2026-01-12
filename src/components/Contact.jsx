@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Form, Button } from "react-bootstrap";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import "./Contact.css";
 
 function Contact() {
@@ -48,6 +48,13 @@ function Contact() {
           rel="noopener noreferrer"
         >
           <FaLinkedin />
+        </a>
+        <a
+          href="mailto:saadmujawar2667@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaEnvelope />
         </a>
       </div>
 
